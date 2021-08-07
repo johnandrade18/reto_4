@@ -4,8 +4,8 @@ public class Requerimiento_2 {
     private Integer idMaterial;
     private String nombreMaterial;
     private Integer cantidad;
-    private Double precioUnidad;
-    private Double precioTotal;
+    private Integer precioUnidad;
+    private Integer precioTotal;
 
     public  Requerimiento_2(){
 
@@ -54,30 +54,30 @@ public class Requerimiento_2 {
     }
 
     /**
-     * @return Double return the precioUnidad
+     * @return Integer return the precioUnidad
      */
-    public Double getPrecioUnidad() {
+    public Integer getPrecioUnidad() {
         return precioUnidad;
     }
 
     /**
      * @param precioUnidad the precioUnidad to set
      */
-    public void setPrecioUnidad(Double precioUnidad) {
+    public void setPrecioUnidad(Integer precioUnidad) {
         this.precioUnidad = precioUnidad;
     }
 
     /**
-     * @return Double return the precioTotal
+     * @return Integer return the precioTotal
      */
-    public Double getPrecioTotal() {
+    public Integer getPrecioTotal() {
         return precioTotal;
     }
 
     /**
      * @param precioTotal the precioTotal to set
      */
-    public void setPrecioTotal(Double precioTotal) {
+    public void setPrecioTotal(Integer precioTotal) {
         this.precioTotal = precioTotal;
     }
 

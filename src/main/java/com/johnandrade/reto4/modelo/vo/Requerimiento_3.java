@@ -1,10 +1,10 @@
 package com.johnandrade.reto4.modelo.vo;
 
 public class Requerimiento_3 {
-    private Integer idProyecto;
+    private int idProyecto;
     private String ciudad;
     private String clasificacion;
-    private Double costoProyecto;
+    private int costoProyecto;
 
     public Requerimiento_3(){
 
@@ -53,16 +53,16 @@ public class Requerimiento_3 {
     }
 
     /**
-     * @return Double return the costoProyecto
+     * @return Integer return the costoProyecto
      */
-    public Double getCostoProyecto() {
+    public Integer getCostoProyecto() {
         return costoProyecto;
     }
 
     /**
      * @param costoProyecto the costoProyecto to set
      */
-    public void setCostoProyecto(Double costoProyecto) {
+    public void setCostoProyecto(Integer costoProyecto) {
         this.costoProyecto = costoProyecto;
     }
 
